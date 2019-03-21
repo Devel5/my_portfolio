@@ -12,13 +12,11 @@ a {
   background-color: white;
   display:flex;
   align-items: flex-end;
-  justify-content:flex-end;
+  justify-content: space-between;
 }
-
-.logo{
-  padding-right:79%;
+.navbar .menu a {
+  padding: 0 20px;
 }
-
 .container {
   height: 85%;
   background-image:  url("./pic.JPG"); 
@@ -26,6 +24,9 @@ a {
 
 .footer {
   height: 4%;
+}
+a {
+  font-size: 20px;
 }
 .forms{
   height: 100%;
@@ -54,6 +55,26 @@ input {
   font-size: 16px;
   border-radius: 12px; 
  }
-
-
+ @media only screen and (min-width: 500px) {
+   /* Desktop */
+   .sree{
+    display:none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* Mobile */
+  .menu {
+    display:none;
+  }
+  .navbar {
+    align-items: center;
+  }
+  .container {
+    height: 83%;
+    background-image:  url("./pic.JPG"); 
+  }
+  .footer {
+    height: 6%;
+  }
+}
 

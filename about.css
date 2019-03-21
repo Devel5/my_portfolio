@@ -9,10 +9,10 @@ height: 100vh;
   background-color: white;
   display:flex;
   align-items: flex-end;
-  justify-content:flex-end;
+  justify-content: space-between;
 }
-.logo{
-  padding-right:79%;
+.navbar .menu a {
+  padding: 0 20px;
 }
 .container {
   height: 85%;
@@ -23,6 +23,22 @@ height: 100vh;
 }
  a {
   font-size: 20px;
+}
+@media only screen and (min-width: 500px) {
+  .menu img{
+    display:none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbar {
+    align-items: center;
+  }
+  a{
+    display:none;
+  }
+  .footer {
+   height:0;
+  }
 }
 
 
