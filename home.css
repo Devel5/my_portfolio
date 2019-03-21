@@ -9,10 +9,10 @@ height: 100vh;
   background-color: white;
   display:flex;
   align-items: flex-end;
-  justify-content:flex-end;
+  justify-content: space-between;
 }
-.logo{
-  padding-right:79%;
+.navbar .menu a {
+  padding: 0 20px;
 }
 h1{
   color: white;
@@ -26,6 +26,27 @@ h1{
 }
  a {
   font-size: 20px;
+}
+.menu img {
+  padding-right: 10px;
+}
+@media only screen and (min-width: 500px) {
+  /* Desktop */
+  .menu img{
+    display:none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* Mobile */
+  a{
+    display:none;
+  }
+  .footer {
+   height:0;
+  }
+  .navbar {
+    align-items: center;
+  }
 }
 
 
