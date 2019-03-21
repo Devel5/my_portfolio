@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+}
+body {
+height: 100vh;
+}
+.navbar {
+  height: 80px;
+  background-color: white;
+  display:flex;
+  align-items: flex-end;
+  justify-content:flex-end;
+}
+.logo{
+  padding-right:79%;
+}
+h1{
+  color: white;
+}
+.container {
+  height: 85%;
+  background-image: url("./pic.JPG");  
+}
+.footer {
+  height: 4%;
+}
+ a {
+  font-size: 20px;
+}
+
+

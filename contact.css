@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+}
+body {
+height: 100vh;
+}
+a {
+  font-size: 20px;
+}
+.navbar {
+  height: 80px;
+  background-color: white;
+  display:flex;
+  align-items: flex-end;
+  justify-content:flex-end;
+}
+
+.logo{
+  padding-right:79%;
+}
+
+.container {
+  height: 85%;
+  background-image:  url("./pic.JPG"); 
+}
+
+.footer {
+  height: 4%;
+}
+.forms{
+  height: 100%;
+  display:flex; 
+  justify-content:center; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms h2 {
+  padding-bottom: 25px;
+  color:whitesmoke
+}
+input {
+  background-color: whitesmoke;
+  color: gray;
+  font-size: 150%; 
+}
+ button{
+  background-color: lightslategray;
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px; 
+ }
+
+
+
