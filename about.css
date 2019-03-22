@@ -25,9 +25,10 @@ height: 100vh;
   font-size: 20px;
 }
 @media only screen and (min-width: 500px) {
-  .menu img{
-    display:none;
-  }
+  /* Desktop */
+  .menuicon{
+   display:none;
+ }
 }
 @media only screen and (max-width: 500px) {
   .navbar {
@@ -39,6 +40,32 @@ height: 100vh;
   .footer {
    height:0;
   }
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+}
+.dropdown-content a{
+  text-decoration: none;
+  font-size:125%;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+.menuicon{
+  padding-right:50px;
+}
 }
 
 

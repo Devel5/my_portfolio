@@ -3,6 +3,7 @@
 }
 body {
 height: 100vh;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 a {
   font-size: 20px;
@@ -16,6 +17,7 @@ a {
 }
 .navbar .menu a {
   padding: 0 20px;
+  text-decoration: none;
 }
 .container {
   height: 85%;
@@ -57,7 +59,7 @@ input {
  }
  @media only screen and (min-width: 500px) {
    /* Desktop */
-   .sree{
+   .menuicon{
     display:none;
   }
 }
@@ -75,6 +77,33 @@ input {
   }
   .footer {
     height: 6%;
+    display:flex;
+  justify-content: space-around;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    font-size:125%;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  .menuicon{
+    padding-right:50px;
   }
 }
 

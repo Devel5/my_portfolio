@@ -32,9 +32,9 @@ h1{
 }
 @media only screen and (min-width: 500px) {
   /* Desktop */
-  .menu img{
-    display:none;
-  }
+  .menuicon{
+   display:none;
+ }
 }
 @media only screen and (max-width: 500px) {
   /* Mobile */
@@ -47,6 +47,32 @@ h1{
   .navbar {
     align-items: center;
   }
+} .dropdown {
+  position: relative;
+  display: inline-block;
 }
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+}
+.dropdown-content a{
+  text-decoration: none;
+  font-size:125%;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+.menuicon{
+  padding-right:50px;
+}
+}
+
 
 
