@@ -3,7 +3,7 @@
 }
 body {
 height: 100vh;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: sofia;
 }
 a {
   font-size: 20px;
@@ -27,9 +27,7 @@ a {
 .footer {
   height: 4%;
 }
-a {
-  font-size: 20px;
-}
+
 .forms{
   height: 100%;
   display:flex; 
@@ -46,6 +44,7 @@ input {
   background-color: whitesmoke;
   color: gray;
   font-size: 150%; 
+  font-family: sofia;
 }
  button{
   background-color: lightslategray;
@@ -56,6 +55,7 @@ input {
   display: inline-block;
   font-size: 16px;
   border-radius: 12px; 
+  font-family: sofia;
  }
  @media only screen and (min-width: 500px) {
    /* Desktop */
