@@ -35,7 +35,7 @@ a {
 .avatar-container {
   background-image: url("./avatar.JPG");
   background-size: cover;
-  border: 2px yellow solid;
+  border: 2px;
   height: 100px;
   width: 100px;
   border-radius: 50%;
