@@ -11,5 +11,11 @@ Then I desgined the navbar, container and footer for one page used the samething
 In home I have a resume video, contact page I have an interactive form and in about page I have a description about me.
 Project plan and time line:
 I started designing the Basic Idea using pen and paper. Then gave it a little more flair using Figma, wireframes in figma gave me a clear idea as to how to design.
+Link for Figma:  https://www.figma.com/file/bifiMaaPGurjjq99D4wCvmea/Portfolio?node-id=0%3A1
+Link for Trello: https://trello.com/b/ebUWa0jn/portfolio
+Link with first page screenshot Figma: https://github.com/Devel5/my_portfolio/blob/master/Figma1.png
+Link with second page screenshot Figma: https://github.com/Devel5/my_portfolio/blob/master/Figma2.png
+Link with screenshot of trello: https://github.com/Devel5/my_portfolio/blob/master/trello.png
+
 
 
