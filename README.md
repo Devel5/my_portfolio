@@ -65,3 +65,4 @@ DNS is the glue that makes the web work. It translates a name (www.google.com) t
       In the past one could turn off digital communication: Like tv and radio but now a day, smart phones have become a part of our lives. We call it smart phone since it can access internet and gives us the required information. We wake up check the weather and then plan the day. We feel connected to the universe only when we have internet else even if there are so many people around us, we feel like we are alone.
       Internet has most certainly changed our lives. Communicating with a friend over WhatsApp or other internet messaging system is a lot easier and distance is not an issue anymore.
 
+
