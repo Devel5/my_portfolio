@@ -3,7 +3,7 @@
 }
 body {
   height: 100vh;
-  font-family: sofia;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a {
   font-size: 20px;
@@ -20,10 +20,11 @@ a {
 }
 .container {
   height: 85%;
-  background-image: url("./pic.JPG");
+  background-image: url("https://aactionpc.net/stage/wp-content/uploads/2017/04/Red-Abstract-textured-Background-2.jpg");
+  background-size:cover;
 }
 .text-container{
-  padding: 0% 25% 35% 25%;
+  padding: 8% 25% 35% 25%;
 }
 .text{
   color:white;
@@ -33,7 +34,7 @@ a {
   height: 4%;
 }
 .avatar-container {
-  background-image: url("./avatar.JPG");
+  background-image: url("avatar.JPG");
   background-size: cover;
   border: 2px;
   height: 100px;
@@ -57,7 +58,8 @@ a {
   }
   .container {
     height: 83%;
-    background-image:  url("./pic.JPG"); 
+    background-image: url("https://aactionpc.net/stage/wp-content/uploads/2017/04/Red-Abstract-textured-Background-2.jpg");
+    background-size:cover;
     overflow:scroll;
   }
   .footer {
